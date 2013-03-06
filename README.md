@@ -20,4 +20,4 @@ static void Main(string[] args)
 Hello World!
 ```
 
-For more info on brainfuck, check out the (brainfuck wikipedia)[http://en.wikipedia.org/wiki/Brainfuck]
+For more info on brainfuck, check out the [brainfuck wikipedia](http://en.wikipedia.org/wiki/Brainfuck). Have fun!
