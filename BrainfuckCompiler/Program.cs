@@ -6,9 +6,9 @@
         {
             var parser = new Parser("++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.");
 
-            var isntructions = parser.Instructions;
+            var instructions = parser.Instructions;
 
-            var interpreter = new Interpreter(isntructions);
+            var interpreter = new Interpreter(instructions);
 
             interpreter.Interpret();
         }

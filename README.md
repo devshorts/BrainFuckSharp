@@ -8,9 +8,7 @@ static void Main(string[] args)
 {
     var parser = new Parser("++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.");
 
-    var isntructions = parser.Instructions;
-
-    var interpreter = new Interpreter(isntructions);
+    var interpreter = new Interpreter(parser.Instructions);
 
     interpreter.Interpret();
 }
